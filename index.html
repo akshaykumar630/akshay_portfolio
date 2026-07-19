@@ -157,19 +157,22 @@
       align-items: center;
     }
 
-    .about-image {
-      flex: 0 0 300px;
-      border-radius: 12px;
-      overflow: hidden;
-      filter: grayscale(1) contrast(1.05);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.5);
-    }
+   /* About section - increased image height */
+.about-image {
+  flex: 0 0 300px;
+  height: 600px; /* Increased height */
+  border-radius: 12px;
+  overflow: hidden;
+  filter: grayscale(1) contrast(1.05);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+}
 
-    .about-image img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image fills the container properly */
+  display: block;
+}
 
     .story-block {
       flex: 1;
@@ -463,7 +466,7 @@
       section { padding: 4rem 0; }
       .hero { padding: 0 1.2rem; min-height: 80vh; }
       .hero-image { flex: 0 0 200px; }
-      .about-image { flex: 0 0 200px; }
+      .about-image { flex: 0 0 200px; height: 350px; }
       .expertise-image { flex: 0 0 200px; }
       .vision-image { flex: 0 0 100%; }
       .contact-image { flex: 0 0 200px; }
@@ -515,7 +518,7 @@
         <a href="#projects" class="cta-btn bebas">Explore My Work</a>
       </div>
       <div class="hero-image fade-up delay-1">
-        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop&crop=center&auto=format&q=80" alt="Akshay Kumar - hero" />
+        <img src="akshay_main.png" alt="Akshay Kumar - hero" />
       </div>
     </div>
   </section>
@@ -526,7 +529,7 @@
       <h2 class="section-title bebas">WHO I AM</h2>
       <div class="about-wrap">
         <div class="about-image fade-up">
-          <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&h=500&fit=crop&crop=center&auto=format&q=80" alt="Akshay - thinking" />
+          <img src="ak_2.png" alt="Akshay - thinking" />
         </div>
         <div class="story-block inter fade-up delay-1">
           <p>My career didn't begin with a marketing degree—it began with curiosity.</p>
@@ -567,7 +570,7 @@
       <p class="section-sub inter">Skills that power results — no bars, no levels, just craft.</p>
       <div class="expertise-wrap">
         <div class="expertise-image fade-up">
-          <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&h=600&fit=crop&crop=center&auto=format&q=80" alt="Akshay - city window" />
+          <img src="ak_3.png" alt="Akshay - city window" />
         </div>
         <div class="tags-wrap inter fade-up delay-1">
           <span class="tag">Content Writing</span>
@@ -640,7 +643,7 @@
     <div class="container">
       <div class="vision-wrap">
         <div class="vision-image fade-up">
-          <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=600&h=700&fit=crop&crop=center&auto=format&q=80" alt="Akshay - cinematic walk" />
+          <img src="ak_4.png" alt="Akshay - cinematic walk" />
         </div>
         <div class="vision-box inter fade-up delay-1">
           <p>“I don't build campaigns.</p>
@@ -676,7 +679,7 @@
       <h2 class="section-title bebas">LET'S BUILD SOMETHING REMARKABLE</h2>
       <div class="contact-wrap">
         <div class="contact-image fade-up">
-          <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&h=500&fit=crop&crop=center&auto=format&q=80" alt="Akshay - desk" />
+          <img src="ak_5.png" alt="Akshay - desk" />
         </div>
         <div class="contact-grid inter fade-up delay-1">
           <div class="contact-item">📧 <a href="mailto:akshaykumarch17@gmail.com">akshaykumarch17@gmail.com</a></div>
